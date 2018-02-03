@@ -23,7 +23,7 @@ function draw(){
     arc(0, 0, 280, 280, 0, end2);
 
     stroke(150, 255, 100);
-    let end3 = map(hr % 12, 0, 12, -90, 360);
+    let end3 = map(hr % 12, 0, 12, 0, 360);
     arc(0, 0, 260, 260, 0, end3);
 
     // strokeWeight(4);
