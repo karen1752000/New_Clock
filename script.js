@@ -43,14 +43,10 @@ function draw(){
     stroke(150, 255, 100);
     line(0, 0, 50, 0);
     pop();
-    
-    
-    // strokeWeight(4);
-    // stroke(255);
-    // noFill();
-    // ellipse(200, 200, 300);
-    
-}
+
+    stroke(255);
+    point(0, 0);
+};
 
 
 
@@ -61,7 +57,3 @@ function draw(){
 
 
 
-//     fill(255);
-//     noStroke();
-//     text(hr + ':' + mn + ':' + sc, 10, 200);
-// 
