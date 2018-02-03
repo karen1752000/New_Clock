@@ -13,8 +13,11 @@ function draw(){
     strokeWeight(8);
     noFill();
     stroke(255, 100, 150);
-    let end = map(sc, 0, 60, 0, 360);
-    arc(200, 200, 300, 300, 0, end);
+    let end1 = map(sc, 0, 60, 0, 360);
+    arc(200, 200, 300, 300, 0, end1);
+
+    let end2 = map(mn, 0, 60, 0, 360);
+    arc(200, 200, 280, 280, 0, end2);
 
     // strokeWeight(4);
     // stroke(255);
